@@ -112,7 +112,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #fff;
+  color: #E6E6FA;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
@@ -133,7 +133,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb727;
+  color: #DA70D6;
 }
 
 .navbar .dropdown ul {
@@ -316,7 +316,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/main-bg.png") top right;
+  background: url("../img//aa-pic/main_bg_blur.JPG") top right;
   background-size: cover;
   position: relative;
 }
@@ -348,21 +348,23 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: "Satisfy", serif;
-  color: #fff;
+  color: #E6E6FA;
+  /* text-shadow: 2px 2px 15px #F8F8FF; */
 }
 
 #hero h2 {
-  color: #eee;
+  color: #E0B0FF;
   margin-bottom: 50px;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-shadow: 3px 3px 10px #F8F8FF;
 }
 
 #hero .btn-scroll {
   transition: 0.4s;
-  color: rgba(255, 255, 255, 0.6);
+  color: #E6E6FA;
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
@@ -371,7 +373,7 @@ h6 {
 }
 
 #hero .btn-scroll:hover {
-  color: #ffb727;
+  color: #DA70D6;
 }
 
 @media (min-width: 1024px) {
@@ -415,7 +417,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 5px 0;
 }
 
 .section-bg {
@@ -431,12 +433,13 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  margin-bottom: 5px;
   padding-bottom: 0;
   color: #3b434a;
   position: relative;
   z-index: 2;
+  font-family: 'Kalam', cursive;
 }
 
 .section-title span {
@@ -456,6 +459,8 @@ section {
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  font-family: 'Ubuntu', sans-serif;
+  color: #800080 !important;
 }
 
 @media (max-width: 575px) {
@@ -544,6 +549,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .about .content ul li {
@@ -554,12 +560,13 @@ section {
 
 .about .content ul strong {
   margin-right: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ffb727;
+  color: #DA70D6;
   line-height: 0;
 }
 
@@ -611,7 +618,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/aa-pic/profile_pic_crop.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -650,7 +657,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ffb727;
+  background-color: #DA70D6;
 }
 
 /*--------------------------------------------------------------
