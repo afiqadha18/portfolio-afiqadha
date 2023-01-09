@@ -434,7 +434,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   /* text-transform: uppercase; */
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   padding-bottom: 0;
   color: #3b434a;
   position: relative;
@@ -456,7 +456,9 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 8px;
   position: relative;
   z-index: 2;
   font-family: 'Ubuntu', sans-serif;
@@ -1386,4 +1388,17 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.custom-text-p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin: 0 !important;
+  color: #800080;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.custom-text-p:hover {
+  color: #DA70D6;
 }
